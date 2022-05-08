@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { CloseButton } from "../CloseButton";
+
 import bugImageUrl from "../../assets/bug.svg";
 import ideaImageUrl from "../../assets/idea.svg";
 import thoughtImageUrl from "../../assets/thought.svg";
@@ -45,6 +47,7 @@ export function WidgetForm() {
       )  :  (
         <FeedbackContentStep feedbackType={feedbackType} />
       ) }
+
 
       <footer>
         Feito com ♥ pela{" "}
